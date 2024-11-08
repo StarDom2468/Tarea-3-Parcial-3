@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(Negro.jpg) center center / cover no-repeat;
+    color: #2F4F4F;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: Berlin Sans FB Demi;
+    color: rgb(156, 156, 156)
+}
+
+section {
+    margin: 20px;
+    padding: 2rem;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    max-width: 600px;
+    text-align: center;
+    color: rgb(156, 156, 156)
+    
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #2c0000;
+    border-radius: 5px;
+    max-width: 400px;
+    align-items: center;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1b1b1b;
+    transition: background-color 0.8s;
+}
